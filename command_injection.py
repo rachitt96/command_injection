@@ -14,8 +14,8 @@ class injectionForm(FlaskForm):
     submit = SubmitField('Submit')
 
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
+def home_page():
+    return 'This is a demo application of command injection vulnerability'
 
 '''
 @app.route('/testing')
